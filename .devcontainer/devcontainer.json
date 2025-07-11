@@ -1,0 +1,8 @@
+{
+  "name": "Android Development",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "yes | sdkmanager --licenses",
+  "remoteUser": "codespace"
+}
